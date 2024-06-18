@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D06AC331-16B7-4A51-9198-9693C4E090EB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MiniStore</RootNamespace>
+    <AssemblyName>MiniStore</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AForge, Version=2.2.5.0, Culture=neutral, PublicKeyToken=c1db6ff4eaa06aeb, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.2.2.5\lib\AForge.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video, Version=2.2.5.0, Culture=neutral, PublicKeyToken=cbfb6e07d173c401, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Video.2.2.5\lib\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow, Version=2.2.5.0, Culture=neutral, PublicKeyToken=61ea4348d43881b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Video.DirectShow.2.2.5\lib\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
+    <Reference Include="FontAwesome.Sharp, Version=6.1.1.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontAwesome.Sharp.6.1.1\lib\net48\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="zxing, Version=0.16.8.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.8\lib\net48\zxing.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing.presentation, Version=0.16.8.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.8\lib\net48\zxing.presentation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BUS\ConsumerBUS.cs" />
+    <Compile Include="BUS\EmployeeBUS.cs" />
+    <Compile Include="BUS\InputBUS.cs" />
+    <Compile Include="BUS\InputDetailBUS.cs" />
+    <Compile Include="BUS\InvoiceBUS.cs" />
+    <Compile Include="BUS\ProductBUS.cs" />
+    <Compile Include="BUS\PromoCodeBUS.cs" />
+    <Compile Include="BUS\ProviderBUS.cs" />
+    <Compile Include="Costumized\Avatar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Costumized\CostumButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Costumized\CostumTextbox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Costumized\CostumTextbox.Designer.cs">
+      <DependentUpon>CostumTextbox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Costumized\GPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DAO\Connection.cs" />
+    <Compile Include="DAO\ConsumerDAO.cs" />
+    <Compile Include="DAO\EmployeeDAO.cs" />
+    <Compile Include="DAO\InputDAO.cs" />
+    <Compile Include="DAO\InputDetailDAO.cs" />
+    <Compile Include="DAO\InvoiceDAO.cs" />
+    <Compile Include="DAO\ProductDAO.cs" />
+    <Compile Include="DAO\PromoCodeDAO.cs" />
+    <Compile Include="DAO\ProviderDAO.cs" />
+    <Compile Include="DTO\ConsumerDTO.cs" />
+    <Compile Include="DTO\EmployeeDTO.cs" />
+    <Compile Include="DTO\InputDetailDTO.cs" />
+    <Compile Include="DTO\InputDTO.cs" />
+    <Compile Include="DTO\InvoiceDTO.cs" />
+    <Compile Include="DTO\ProductDTO.cs" />
+    <Compile Include="DTO\PromoCodeDTO.cs" />
+    <Compile Include="DTO\ProviderDTO.cs" />
+    <Compile Include="ExtendedFeatures\Barcode.cs" />
+    <Compile Include="GUI\Controls\FeaturesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Controls\FeaturesControl.Designer.cs">
+      <DependentUpon>FeaturesControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Controls\LoginControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Controls\LoginControl.Designer.cs">
+      <DependentUpon>LoginControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Controls\MainControls.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Controls\MainControls.Designer.cs">
+      <DependentUpon>MainControls.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Dialog\ConfirmDialog.cs" />
+    <Compile Include="GUI\Features\ConsumerSetting.cs" />
+    <Compile Include="GUI\Features\EmployeeSetting.cs" />
+    <Compile Include="GUI\Features\Inventory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Features\Inventory.Designer.cs">
+      <DependentUpon>Inventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Features\Invoices.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Features\Invoices.Designer.cs">
+      <DependentUpon>Invoices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Features\khuyenmai.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Features\khuyenmai.Designer.cs">
+      <DependentUpon>khuyenmai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Features\Management.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Features\Management.Designer.cs">
+      <DependentUpon>Management.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Items\Payment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Items\Payment.Designer.cs">
+      <DependentUpon>Payment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Features\ProductSetting.cs" />
+    <Compile Include="GUI\Features\QLProvider.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Features\QLProvider.Designer.cs">
+      <DependentUpon>QLProvider.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Items\ConsumerItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Items\ConsumerItem.Designer.cs">
+      <DependentUpon>ConsumerItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Items\EmployeeItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Items\EmployeeItem.Designer.cs">
+      <DependentUpon>EmployeeItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Features\QLKH.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Features\QLKH.Designer.cs">
+      <DependentUpon>QLKH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Features\QLNV.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Features\QLNV.Designer.cs">
+      <DependentUpon>QLNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Features\QLProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Features\QLProduct.Designer.cs">
+      <DependentUpon>QLProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Items\Confirmation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Items\Confirmation.Designer.cs">
+      <DependentUpon>Confirmation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Items\FeatureButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\Items\FeatureIcon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Items\FeatureIcon.Designer.cs">
+      <DependentUpon>FeatureIcon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Dialog\MessageDialog.cs" />
+    <Compile Include="GUI\Items\Input.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Items\Input.Designer.cs">
+      <DependentUpon>Input.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Features\InputMng.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Features\InputMng.Designer.cs">
+      <DependentUpon>InputMng.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Items\MyMessage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Items\MyMessage.Designer.cs">
+      <DependentUpon>MyMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Items\PasswordEnter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Items\PasswordEnter.Designer.cs">
+      <DependentUpon>PasswordEnter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Items\ProductItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Items\ProductItem.Designer.cs">
+      <DependentUpon>ProductItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Items\ProviderItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Items\ProviderItem.Designer.cs">
+      <DependentUpon>ProviderItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\MainScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\MainScreen.Designer.cs">
+      <DependentUpon>MainScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\MyDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\MyDialog.Designer.cs">
+      <DependentUpon>MyDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Costumized\CostumTextbox.resx">
+      <DependentUpon>CostumTextbox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Controls\MainControls.resx">
+      <DependentUpon>MainControls.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Features\Inventory.resx">
+      <DependentUpon>Inventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Features\Invoices.resx">
+      <DependentUpon>Invoices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Features\khuyenmai.resx">
+      <DependentUpon>khuyenmai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Features\Management.resx">
+      <DependentUpon>Management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Items\Payment.resx">
+      <DependentUpon>Payment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Features\QLProvider.resx">
+      <DependentUpon>QLProvider.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Items\ConsumerItem.resx">
+      <DependentUpon>ConsumerItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Items\EmployeeItem.resx">
+      <DependentUpon>EmployeeItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Features\QLKH.resx">
+      <DependentUpon>QLKH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Features\QLNV.resx">
+      <DependentUpon>QLNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Features\QLProduct.resx">
+      <DependentUpon>QLProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Items\Confirmation.resx">
+      <DependentUpon>Confirmation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Items\FeatureButton.resx">
+      <DependentUpon>FeatureButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Items\FeatureIcon.resx">
+      <DependentUpon>FeatureIcon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Items\Input.resx">
+      <DependentUpon>Input.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Features\InputMng.resx">
+      <DependentUpon>InputMng.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Items\MyMessage.resx">
+      <DependentUpon>MyMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Items\PasswordEnter.resx">
+      <DependentUpon>PasswordEnter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Items\ProductItem.resx">
+      <DependentUpon>ProductItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Items\ProviderItem.resx">
+      <DependentUpon>ProviderItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\MainScreen.resx">
+      <DependentUpon>MainScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\MyDialog.resx">
+      <DependentUpon>MyDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="static\GUI\MainPic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="static\GUI\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="static\GUI\CashierFeature.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="static\GUI\wallpaper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="static\GUI\bg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="static\GUI\ShopIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="static\GUI\DefaultAvatar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="static\GUI\DefaultAvatar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="static\GUI\confused.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="static\GUI\confirm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="static\GUI\successful.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="static\Barcode\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

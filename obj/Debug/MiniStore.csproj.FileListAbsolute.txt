@@ -1,0 +1,86 @@
+D:\Code\C_Sharp\MiniStore\MiniStore\bin\Debug\MiniStore.exe.config
+D:\Code\C_Sharp\MiniStore\MiniStore\bin\Debug\MiniStore.exe
+D:\Code\C_Sharp\MiniStore\MiniStore\bin\Debug\MiniStore.pdb
+D:\Code\C_Sharp\MiniStore\MiniStore\bin\Debug\AForge.dll
+D:\Code\C_Sharp\MiniStore\MiniStore\bin\Debug\AForge.Video.DirectShow.dll
+D:\Code\C_Sharp\MiniStore\MiniStore\bin\Debug\AForge.Video.dll
+D:\Code\C_Sharp\MiniStore\MiniStore\bin\Debug\FontAwesome.Sharp.dll
+D:\Code\C_Sharp\MiniStore\MiniStore\bin\Debug\zxing.dll
+D:\Code\C_Sharp\MiniStore\MiniStore\bin\Debug\zxing.presentation.dll
+D:\Code\C_Sharp\MiniStore\MiniStore\bin\Debug\AForge.xml
+D:\Code\C_Sharp\MiniStore\MiniStore\bin\Debug\AForge.Video.xml
+D:\Code\C_Sharp\MiniStore\MiniStore\bin\Debug\AForge.Video.DirectShow.xml
+D:\Code\C_Sharp\MiniStore\MiniStore\bin\Debug\zxing.xml
+D:\Code\C_Sharp\MiniStore\MiniStore\bin\Debug\zxing.presentation.xml
+D:\Code\C_Sharp\MiniStore\MiniStore\obj\Debug\MiniStore.csproj.AssemblyReference.cache
+D:\Code\C_Sharp\MiniStore\MiniStore\obj\Debug\MiniStore.csproj.SuggestedBindingRedirects.cache
+D:\Code\C_Sharp\MiniStore\MiniStore\obj\Debug\MiniStore.Costumized.CostumTextbox.resources
+D:\Code\C_Sharp\MiniStore\MiniStore\obj\Debug\MiniStore.MainControl.resources
+D:\Code\C_Sharp\MiniStore\MiniStore\obj\Debug\MiniStore.GUI.Features.Inventory.resources
+D:\Code\C_Sharp\MiniStore\MiniStore\obj\Debug\MiniStore.GUI.Features.Invoices.resources
+D:\Code\C_Sharp\MiniStore\MiniStore\obj\Debug\khuyenmai.khuyenmai.resources
+D:\Code\C_Sharp\MiniStore\MiniStore\obj\Debug\MiniStore.GUI.Features.Payment.resources
+D:\Code\C_Sharp\MiniStore\MiniStore\obj\Debug\MiniStore.GUI.Features.QLProvider.resources
+D:\Code\C_Sharp\MiniStore\MiniStore\obj\Debug\MiniStore.GUI.Features.ConsumerItem.resources
+D:\Code\C_Sharp\MiniStore\MiniStore\obj\Debug\MiniStore.GUI.Controls.EmployeeItem.resources
+D:\Code\C_Sharp\MiniStore\MiniStore\obj\Debug\QLKH_QLNV.QLKH.resources
+D:\Code\C_Sharp\MiniStore\MiniStore\obj\Debug\QLKH_QLNV.QLNV.resources
+D:\Code\C_Sharp\MiniStore\MiniStore\obj\Debug\Kho.QLProduct.resources
+D:\Code\C_Sharp\MiniStore\MiniStore\obj\Debug\MiniStore.GUI.Items.Confirmation.resources
+D:\Code\C_Sharp\MiniStore\MiniStore\obj\Debug\MiniStore.GUI.FeatureButton.resources
+D:\Code\C_Sharp\MiniStore\MiniStore\obj\Debug\MiniStore.GUI.FeatureIcon.resources
+D:\Code\C_Sharp\MiniStore\MiniStore\obj\Debug\MiniStore.GUI.Items.Input.resources
+D:\Code\C_Sharp\MiniStore\MiniStore\obj\Debug\MiniStore.GUI.Items.InputMng.resources
+D:\Code\C_Sharp\MiniStore\MiniStore\obj\Debug\MiniStore.GUI.Items.MyMessage.resources
+D:\Code\C_Sharp\MiniStore\MiniStore\obj\Debug\MiniStore.GUI.Items.PasswordEnter.resources
+D:\Code\C_Sharp\MiniStore\MiniStore\obj\Debug\MiniStore.GUI.Items.ProductItem.resources
+D:\Code\C_Sharp\MiniStore\MiniStore\obj\Debug\MiniStore.GUI.Items.ProviderItem.resources
+D:\Code\C_Sharp\MiniStore\MiniStore\obj\Debug\MiniStore.GUI.MainScreen.resources
+D:\Code\C_Sharp\MiniStore\MiniStore\obj\Debug\MiniStore.GUI.MyDialog.resources
+D:\Code\C_Sharp\MiniStore\MiniStore\obj\Debug\MiniStore.Properties.Resources.resources
+D:\Code\C_Sharp\MiniStore\MiniStore\obj\Debug\MiniStore.csproj.GenerateResource.cache
+D:\Code\C_Sharp\MiniStore\MiniStore\obj\Debug\MiniStore.csproj.CoreCompileInputs.cache
+D:\Code\C_Sharp\MiniStore\MiniStore\obj\Debug\MiniStore.csproj.CopyComplete
+D:\Code\C_Sharp\MiniStore\MiniStore\obj\Debug\MiniStore.exe
+D:\Code\C_Sharp\MiniStore\MiniStore\obj\Debug\MiniStore.pdb
+D:\Code\C_Sharp\MiniStore\MiniStore\obj\Debug\MiniStore.GUI.Features.Management.resources
+C:\Users\Nguyen Quoc Hung\Desktop\MiniStore\bin\Debug\MiniStore.exe.config
+C:\Users\Nguyen Quoc Hung\Desktop\MiniStore\bin\Debug\MiniStore.exe
+C:\Users\Nguyen Quoc Hung\Desktop\MiniStore\bin\Debug\MiniStore.pdb
+C:\Users\Nguyen Quoc Hung\Desktop\MiniStore\bin\Debug\AForge.xml
+C:\Users\Nguyen Quoc Hung\Desktop\MiniStore\bin\Debug\AForge.Video.xml
+C:\Users\Nguyen Quoc Hung\Desktop\MiniStore\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\Nguyen Quoc Hung\Desktop\MiniStore\bin\Debug\zxing.xml
+C:\Users\Nguyen Quoc Hung\Desktop\MiniStore\bin\Debug\zxing.presentation.xml
+C:\Users\Nguyen Quoc Hung\Desktop\MiniStore\obj\Debug\MiniStore.csproj.AssemblyReference.cache
+C:\Users\Nguyen Quoc Hung\Desktop\MiniStore\obj\Debug\MiniStore.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nguyen Quoc Hung\Desktop\MiniStore\obj\Debug\MiniStore.Costumized.CostumTextbox.resources
+C:\Users\Nguyen Quoc Hung\Desktop\MiniStore\obj\Debug\MiniStore.MainControl.resources
+C:\Users\Nguyen Quoc Hung\Desktop\MiniStore\obj\Debug\MiniStore.GUI.Features.Inventory.resources
+C:\Users\Nguyen Quoc Hung\Desktop\MiniStore\obj\Debug\MiniStore.GUI.Features.Invoices.resources
+C:\Users\Nguyen Quoc Hung\Desktop\MiniStore\obj\Debug\khuyenmai.khuyenmai.resources
+C:\Users\Nguyen Quoc Hung\Desktop\MiniStore\obj\Debug\MiniStore.GUI.Features.Management.resources
+C:\Users\Nguyen Quoc Hung\Desktop\MiniStore\obj\Debug\MiniStore.GUI.Features.Payment.resources
+C:\Users\Nguyen Quoc Hung\Desktop\MiniStore\obj\Debug\MiniStore.GUI.Features.QLProvider.resources
+C:\Users\Nguyen Quoc Hung\Desktop\MiniStore\obj\Debug\MiniStore.GUI.Features.ConsumerItem.resources
+C:\Users\Nguyen Quoc Hung\Desktop\MiniStore\obj\Debug\MiniStore.GUI.Controls.EmployeeItem.resources
+C:\Users\Nguyen Quoc Hung\Desktop\MiniStore\obj\Debug\QLKH_QLNV.QLKH.resources
+C:\Users\Nguyen Quoc Hung\Desktop\MiniStore\obj\Debug\QLKH_QLNV.QLNV.resources
+C:\Users\Nguyen Quoc Hung\Desktop\MiniStore\obj\Debug\Kho.QLProduct.resources
+C:\Users\Nguyen Quoc Hung\Desktop\MiniStore\obj\Debug\MiniStore.GUI.Items.Confirmation.resources
+C:\Users\Nguyen Quoc Hung\Desktop\MiniStore\obj\Debug\MiniStore.GUI.FeatureButton.resources
+C:\Users\Nguyen Quoc Hung\Desktop\MiniStore\obj\Debug\MiniStore.GUI.FeatureIcon.resources
+C:\Users\Nguyen Quoc Hung\Desktop\MiniStore\obj\Debug\MiniStore.GUI.Items.Input.resources
+C:\Users\Nguyen Quoc Hung\Desktop\MiniStore\obj\Debug\MiniStore.GUI.Items.InputMng.resources
+C:\Users\Nguyen Quoc Hung\Desktop\MiniStore\obj\Debug\MiniStore.GUI.Items.MyMessage.resources
+C:\Users\Nguyen Quoc Hung\Desktop\MiniStore\obj\Debug\MiniStore.GUI.Items.PasswordEnter.resources
+C:\Users\Nguyen Quoc Hung\Desktop\MiniStore\obj\Debug\MiniStore.GUI.Items.ProductItem.resources
+C:\Users\Nguyen Quoc Hung\Desktop\MiniStore\obj\Debug\MiniStore.GUI.Items.ProviderItem.resources
+C:\Users\Nguyen Quoc Hung\Desktop\MiniStore\obj\Debug\MiniStore.GUI.MainScreen.resources
+C:\Users\Nguyen Quoc Hung\Desktop\MiniStore\obj\Debug\MiniStore.GUI.MyDialog.resources
+C:\Users\Nguyen Quoc Hung\Desktop\MiniStore\obj\Debug\MiniStore.Properties.Resources.resources
+C:\Users\Nguyen Quoc Hung\Desktop\MiniStore\obj\Debug\MiniStore.csproj.GenerateResource.cache
+C:\Users\Nguyen Quoc Hung\Desktop\MiniStore\obj\Debug\MiniStore.csproj.CoreCompileInputs.cache
+C:\Users\Nguyen Quoc Hung\Desktop\MiniStore\obj\Debug\MiniStore.csproj.CopyComplete
+C:\Users\Nguyen Quoc Hung\Desktop\MiniStore\obj\Debug\MiniStore.exe
+C:\Users\Nguyen Quoc Hung\Desktop\MiniStore\obj\Debug\MiniStore.pdb
